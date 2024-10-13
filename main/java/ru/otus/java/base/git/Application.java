@@ -1,5 +1,7 @@
 package ru.otus.java.base.git;
 
+import java.util.Scanner;
+
 public class Application {
     public static void main(String[] args) {
         printOneTwo();
@@ -9,5 +11,9 @@ public class Application {
     public static void printOneTwo() {
         System.out.print("etryjh");
         System.out.println('2');
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        System.out.println(n);
+
     }
 }
